@@ -1,5 +1,8 @@
 function main() {
-    let result
+    let reset = document.getElementById("table")
+    reset.innerHTML = "";
+
+    let result;
     const multiplicador = Number(document.getElementById("multiplicador").value);
     let limiteInicio = Number(document.getElementById("limiteInicio").value);
     const limiteFim = Number(document.getElementById("limiteFim").value);
